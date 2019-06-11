@@ -1,0 +1,45 @@
+Theory about different Operations
+
+Stack : Opens only at one end
+        Last element deletes first from the stack
+        Last In first out rule
+        Push(), Pop(), Top(), Traversal()
+
+Queue : Opens at both the ends
+        First In First Out rule
+        Deletion from the front and insertion from the rear took place
+        enqueue(), dequeue(), Front, Rear
+
+Deque : Opens from both the ends
+         Deletion and Insertion can took place from both the ends
+         FirstAdd, LastOut, LastAdd, FirstOut
+
+Linked List : It is chaining between the elements
+              Two types of operations are there:
+                    1. Insertion
+                            add_first
+                            add_last
+                            add_position
+                    2. Deletion
+                            del_first
+                            del_last
+                            del_position
+                    3. Traversal
+                    4. First
+                    5. Last
+              Only One-Sided Traversing is possible
+
+Doubly LinkedList : It is ambient chaining between the elements
+                    Two types of operations are there:
+                        1. Insertion
+                            add_first
+                            add_last
+                            add_position
+                        2. Deletion
+                            del_first
+                            del_last
+                            del_position
+                        3. Traversal
+                        4. First
+                        5. Last
+                    Traversing is Possible From Both the sides

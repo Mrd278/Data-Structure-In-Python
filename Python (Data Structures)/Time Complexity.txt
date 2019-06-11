@@ -1,0 +1,28 @@
+Time Complexity of Algorithms
+
+Linear search          : O(n)
+Binary Search          : O(log2(n))
+Selection Sort         : O(n2)
+Bubble Sort            : O(n2)
+Insertion Sort         : O(n2)
+Heap Sort              : O(nlog(n))
+Quick Sort             : O(n2)
+Merge Sort             : O(nlog(n))
+
+To calculate Time Complexity methods are :
+
+Example :
+    int sum = 0                         1
+    int k = []                          1
+    for i in range(n):                  n
+        for j in range(n):              n*n
+            for l in range(n):          n*n*n
+                sum = sum + a[l]        n*n*n
+    return sum                          1
+
+    time complexity = 2n3 + n2 + n +3 = O(n3)
+
+Order of time Complexity:
+
+Constant|Logarithm|Linear|nlog(n)|Quadratic|Cubic|Exponential|
+1       | log(n)  | n    |nlog(n)|  n^2     | n^3  | 2^n     |
